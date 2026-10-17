@@ -1,0 +1,51 @@
+name: bom_dia
+description: "Cartões de bom dia personalizados para enviar no WhatsApp."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^22.3.2
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^3.4.3
+  geolocator: ^14.1.1
+  http: ^1.6.0
+  intl: ^0.20.3
+  path_provider: ^2.1.6
+  share_plus: ^13.3.1
+  shared_preferences: ^2.5.6
+  timezone: ^0.11.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/templates/
+    # Pexels License photos, 1080×1350 JPEG. Credits in docs/CREDITOS-FOTOS.md.
+    - assets/photos/
+
+  # Bundled so cards render the same offline. All four are SIL OFL 1.1
+  # (licenses in assets/fonts/OFL-*.txt).
+  fonts:
+    - family: GreatVibes
+      fonts:
+        - asset: assets/fonts/GreatVibes-Regular.ttf
+    - family: PlayfairDisplay
+      fonts:
+        - asset: assets/fonts/PlayfairDisplay.ttf
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat.ttf
+    - family: Pacifico
+      fonts:
+        - asset: assets/fonts/Pacifico-Regular.ttf

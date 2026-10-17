@@ -1,0 +1,6485 @@
+{
+  "templates": [
+    {
+      "id": "foto-rosa-ao-sol",
+      "occasions": [
+        "generico",
+        "domingo"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/rosa-ao-sol.jpg",
+        "colors": [
+          "#5A3A2A"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000BF"
+          ],
+          "stops": [
+            0.5,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [
+        {
+          "type": "sparkle",
+          "x": 0.5,
+          "y": 0.12,
+          "size": 0.05,
+          "color": "#FFF6D5",
+          "opacity": 0.9
+        },
+        {
+          "type": "sparkle",
+          "x": 0.66,
+          "y": 0.2,
+          "size": 0.025,
+          "color": "#FFF6D5",
+          "opacity": 0.9
+        }
+      ],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom dia, {nome}!",
+          "font": "GreatVibes",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.6,
+            "w": 0.88,
+            "h": 0.15
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 132,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.035
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.745,
+            "w": 0.8,
+            "h": 0.115
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-cafe-tulipas",
+      "occasions": [
+        "generico",
+        "segunda"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/cafe-tulipas.jpg",
+        "colors": [
+          "#C9B8B0"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000DC"
+          ],
+          "stops": [
+            0.5,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom dia, {nome}!",
+          "font": "Pacifico",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.6,
+            "w": 0.88,
+            "h": 0.15
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 104,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.05
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.745,
+            "w": 0.8,
+            "h": 0.115
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-nascer-do-sol",
+      "occasions": [
+        "generico",
+        "sexta",
+        "segunda"
+      ],
+      "weather": [
+        "sol",
+        "nublado"
+      ],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/nascer-do-sol.jpg",
+        "colors": [
+          "#7A6A80"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#0000008C",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.45
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000BF"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [
+        {
+          "type": "sparkle",
+          "x": 0.5,
+          "y": 0.78,
+          "size": 0.06,
+          "color": "#FFF6D5",
+          "opacity": 0.9
+        }
+      ],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom dia, {nome}!",
+          "font": "GreatVibes",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 132,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.035
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.21,
+            "w": 0.8,
+            "h": 0.15
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-girassois",
+      "occasions": [
+        "generico",
+        "sabado",
+        "calor"
+      ],
+      "weather": [
+        "sol"
+      ],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/girassois.jpg",
+        "colors": [
+          "#3A86C8"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000070",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.45
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#00000099"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom dia, {nome}!",
+          "font": "Pacifico",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 104,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.05
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.21,
+            "w": 0.8,
+            "h": 0.15
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-margarida-domingo",
+      "occasions": [
+        "domingo"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/margarida.jpg",
+        "colors": [
+          "#3F5A2A"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#000000BD",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000FF"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Feliz domingo, {nome}!",
+          "font": "GreatVibes",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 132,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.035
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-chuva-janela",
+      "occasions": [
+        "chuva"
+      ],
+      "weather": [
+        "chuva"
+      ],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/chuva-janela.jpg",
+        "colors": [
+          "#5C6B60"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#0000008C",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000BF"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom dia, {nome}!",
+          "font": "PlayfairDisplay",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 96,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.05
+          },
+          "weight": 700
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-bolo-aniversario",
+      "occasions": [
+        "aniversario"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/bolo-aniversario.jpg",
+        "colors": [
+          "#7A5A35"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#0000008C",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.45
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000BF"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [
+        {
+          "type": "sparkle",
+          "x": 0.12,
+          "y": 0.42,
+          "size": 0.035,
+          "color": "#FFF6D5",
+          "opacity": 0.9
+        },
+        {
+          "type": "sparkle",
+          "x": 0.88,
+          "y": 0.47,
+          "size": 0.03,
+          "color": "#FFF6D5",
+          "opacity": 0.9
+        },
+        {
+          "type": "sparkle",
+          "x": 0.8,
+          "y": 0.62,
+          "size": 0.02,
+          "color": "#FFF6D5",
+          "opacity": 0.9
+        }
+      ],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Feliz aniversário, {nome}!",
+          "font": "GreatVibes",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 132,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.035
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.21,
+            "w": 0.8,
+            "h": 0.15
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-lua-boa-noite",
+      "occasions": [
+        "boa_noite"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/lua.jpg",
+        "colors": [
+          "#0E1A2E"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#0000008C",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000BF"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [
+        {
+          "type": "sparkle",
+          "x": 0.15,
+          "y": 0.3,
+          "size": 0.02,
+          "color": "#FFFFFF",
+          "opacity": 0.9
+        },
+        {
+          "type": "sparkle",
+          "x": 0.85,
+          "y": 0.22,
+          "size": 0.025,
+          "color": "#FFFFFF",
+          "opacity": 0.9
+        },
+        {
+          "type": "sparkle",
+          "x": 0.2,
+          "y": 0.62,
+          "size": 0.015,
+          "color": "#FFFFFF",
+          "opacity": 0.9
+        },
+        {
+          "type": "sparkle",
+          "x": 0.82,
+          "y": 0.66,
+          "size": 0.018,
+          "color": "#FFFFFF",
+          "opacity": 0.9
+        }
+      ],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Boa noite, {nome}!",
+          "font": "GreatVibes",
+          "color": "#FDE68A",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 132,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.035
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-lavanda",
+      "occasions": [
+        "generico"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/lavanda.jpg",
+        "colors": [
+          "#5B4A78"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#000000A8",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000E5"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom dia, {nome}!",
+          "font": "GreatVibes",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 132,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.035
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-cha-frio",
+      "occasions": [
+        "frio"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/cha-manta.jpg",
+        "colors": [
+          "#6E6A66"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#0000009A",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.45
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000D2"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom dia, {nome}!",
+          "font": "Pacifico",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 104,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.05
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.21,
+            "w": 0.8,
+            "h": 0.15
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-cafe-janela",
+      "occasions": [
+        "generico",
+        "segunda"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/cafe-janela.jpg",
+        "colors": [
+          "#7B7167"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#0000008C",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.45
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000BF"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom dia, {nome}!",
+          "font": "GreatVibes",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 132,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.035
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.21,
+            "w": 0.8,
+            "h": 0.15
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-cafe-mesa-flores",
+      "occasions": [
+        "generico",
+        "domingo"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/cafe-mesa-flores.jpg",
+        "colors": [
+          "#9B8978"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#000000B6",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000F9"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom dia, {nome}!",
+          "font": "Pacifico",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 104,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.05
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-rosas-vermelhas",
+      "occasions": [
+        "generico",
+        "domingo"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/rosas-vermelhas.jpg",
+        "colors": [
+          "#7E504F"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#000000B6",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000F9"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom dia, {nome}!",
+          "font": "GreatVibes",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 132,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.035
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-orquidea",
+      "occasions": [
+        "generico"
+      ],
+      "weather": [],
+      "premium": true,
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/orquidea.jpg",
+        "colors": [
+          "#D5A29C"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000FF"
+          ],
+          "stops": [
+            0.5,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom dia, {nome}!",
+          "font": "GreatVibes",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.6,
+            "w": 0.88,
+            "h": 0.15
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 132,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.035
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.745,
+            "w": 0.8,
+            "h": 0.115
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-hortensias",
+      "occasions": [
+        "generico"
+      ],
+      "weather": [],
+      "premium": true,
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/hortensias.jpg",
+        "colors": [
+          "#277591"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#0000008C",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000BF"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom dia, {nome}!",
+          "font": "PlayfairDisplay",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 96,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.05
+          },
+          "weight": 700
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-campo-flores",
+      "occasions": [
+        "generico",
+        "sabado"
+      ],
+      "weather": [
+        "sol",
+        "nublado"
+      ],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/campo-flores.jpg",
+        "colors": [
+          "#6F726A"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#0000008C",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.45
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000BF"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom dia, {nome}!",
+          "font": "Pacifico",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 104,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.05
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.21,
+            "w": 0.8,
+            "h": 0.15
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-praia-amanhecer",
+      "occasions": [
+        "generico",
+        "sexta",
+        "sabado"
+      ],
+      "weather": [
+        "sol",
+        "nublado"
+      ],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/praia-amanhecer.jpg",
+        "colors": [
+          "#97682C"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#0000008C",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.45
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000BF"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom dia, {nome}!",
+          "font": "GreatVibes",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 132,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.035
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.21,
+            "w": 0.8,
+            "h": 0.15
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-montanhas-nevoa",
+      "occasions": [
+        "generico",
+        "segunda"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/montanhas-nevoa.jpg",
+        "colors": [
+          "#8D9EA1"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#000000B6",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000F9"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom dia, {nome}!",
+          "font": "PlayfairDisplay",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 96,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.05
+          },
+          "weight": 700
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-passarinho",
+      "occasions": [
+        "generico"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/passarinho.jpg",
+        "colors": [
+          "#78827D"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#000000A8",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000E5"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom dia, {nome}!",
+          "font": "GreatVibes",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 132,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.035
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-borboleta",
+      "occasions": [
+        "generico",
+        "domingo"
+      ],
+      "weather": [],
+      "premium": true,
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/borboleta.jpg",
+        "colors": [
+          "#8D6B56"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#000000CB",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000FF"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom dia, {nome}!",
+          "font": "GreatVibes",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 132,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.035
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-segunda-cafe-caderno",
+      "occasions": [
+        "segunda"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/segunda-cafe-caderno.jpg",
+        "colors": [
+          "#AFAA9D"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#000000C4",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.45
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000FF"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Boa semana, {nome}!",
+          "font": "Pacifico",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 104,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.05
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.21,
+            "w": 0.8,
+            "h": 0.15
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-sexta-por-do-sol",
+      "occasions": [
+        "sexta"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/sexta-por-do-sol.jpg",
+        "colors": [
+          "#A47D65"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#0000008C",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000BF"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Sextou, {nome}!",
+          "font": "Pacifico",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 104,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.05
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-sabado-varanda",
+      "occasions": [
+        "sabado"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/sabado-varanda.jpg",
+        "colors": [
+          "#747B51"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#000000A8",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000E5"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom sábado, {nome}!",
+          "font": "GreatVibes",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 132,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.035
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-domingo-jardim",
+      "occasions": [
+        "domingo"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/domingo-jardim.jpg",
+        "colors": [
+          "#534231"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#0000008C",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000BF"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Feliz domingo, {nome}!",
+          "font": "GreatVibes",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 132,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.035
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-chuva-guarda-chuva",
+      "occasions": [
+        "chuva"
+      ],
+      "weather": [
+        "chuva"
+      ],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/chuva-guarda-chuva.jpg",
+        "colors": [
+          "#846D57"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#000000B6",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000F9"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom dia, {nome}!",
+          "font": "GreatVibes",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 132,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.035
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-chuva-flor-gotas",
+      "occasions": [
+        "chuva"
+      ],
+      "weather": [
+        "chuva"
+      ],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/chuva-flor-gotas.jpg",
+        "colors": [
+          "#271718"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#0000008C",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000BF"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom dia, {nome}!",
+          "font": "PlayfairDisplay",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 96,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.05
+          },
+          "weight": 700
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-frio-cafe-inverno",
+      "occasions": [
+        "frio"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/frio-cafe-inverno.jpg",
+        "colors": [
+          "#9C98A0"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#000000C4",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000FF"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom dia, {nome}!",
+          "font": "GreatVibes",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 132,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.035
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-frio-geada",
+      "occasions": [
+        "frio"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/frio-geada.jpg",
+        "colors": [
+          "#4D627A"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#000000A8",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000E5"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom dia, {nome}!",
+          "font": "PlayfairDisplay",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 96,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.05
+          },
+          "weight": 700
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-calor-praia-coqueiro",
+      "occasions": [
+        "calor"
+      ],
+      "weather": [
+        "sol"
+      ],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/calor-praia-coqueiro.jpg",
+        "colors": [
+          "#6E8D98"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#000000B6",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000F9"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom dia, {nome}!",
+          "font": "Pacifico",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 104,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.05
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-calor-limonada",
+      "occasions": [
+        "calor"
+      ],
+      "weather": [
+        "sol"
+      ],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/calor-limonada.jpg",
+        "colors": [
+          "#B58045"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#000000B6",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000F9"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom dia, {nome}!",
+          "font": "GreatVibes",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 132,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.035
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-aniversario-baloes",
+      "occasions": [
+        "aniversario"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/aniversario-baloes.jpg",
+        "colors": [
+          "#506A90"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000E5"
+          ],
+          "stops": [
+            0.5,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Feliz aniversário, {nome}!",
+          "font": "Pacifico",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.6,
+            "w": 0.88,
+            "h": 0.15
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 104,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.05
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.745,
+            "w": 0.8,
+            "h": 0.115
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-aniversario-presente",
+      "occasions": [
+        "aniversario"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/aniversario-presente.jpg",
+        "colors": [
+          "#6E2719"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#0000008C",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000BF"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [
+        {
+          "type": "sparkle",
+          "x": 0.12,
+          "y": 0.4,
+          "size": 0.035,
+          "color": "#FFF6D5",
+          "opacity": 0.9
+        },
+        {
+          "type": "sparkle",
+          "x": 0.88,
+          "y": 0.45,
+          "size": 0.03,
+          "color": "#FFF6D5",
+          "opacity": 0.9
+        },
+        {
+          "type": "sparkle",
+          "x": 0.82,
+          "y": 0.62,
+          "size": 0.02,
+          "color": "#FFF6D5",
+          "opacity": 0.9
+        }
+      ],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Parabéns, {nome}!",
+          "font": "GreatVibes",
+          "color": "#FDE68A",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 132,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.035
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-aniversario-bolo-morangos",
+      "occasions": [
+        "aniversario"
+      ],
+      "weather": [],
+      "premium": true,
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/aniversario-bolo-morangos.jpg",
+        "colors": [
+          "#997764"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#000000B6",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.45
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000F9"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Feliz aniversário, {nome}!",
+          "font": "GreatVibes",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 132,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.035
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.21,
+            "w": 0.8,
+            "h": 0.15
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-natal-arvore",
+      "occasions": [
+        "natal"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/natal-arvore.jpg",
+        "colors": [
+          "#332719"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#0000008C",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000BF"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [
+        {
+          "type": "sparkle",
+          "x": 0.15,
+          "y": 0.3,
+          "size": 0.02,
+          "color": "#FFF6D5",
+          "opacity": 0.9
+        },
+        {
+          "type": "sparkle",
+          "x": 0.85,
+          "y": 0.22,
+          "size": 0.025,
+          "color": "#FFF6D5",
+          "opacity": 0.9
+        },
+        {
+          "type": "sparkle",
+          "x": 0.2,
+          "y": 0.62,
+          "size": 0.015,
+          "color": "#FFF6D5",
+          "opacity": 0.9
+        },
+        {
+          "type": "sparkle",
+          "x": 0.82,
+          "y": 0.66,
+          "size": 0.018,
+          "color": "#FFF6D5",
+          "opacity": 0.9
+        }
+      ],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Feliz Natal, {nome}!",
+          "font": "GreatVibes",
+          "color": "#FDE68A",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 132,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.035
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-natal-enfeites",
+      "occasions": [
+        "natal"
+      ],
+      "weather": [],
+      "premium": true,
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/natal-enfeites.jpg",
+        "colors": [
+          "#874F1D"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#000000B6",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000F9"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Feliz Natal, {nome}!",
+          "font": "GreatVibes",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 132,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.035
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-ano-novo-fogos",
+      "occasions": [
+        "ano_novo"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/ano-novo-fogos.jpg",
+        "colors": [
+          "#17141A"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#0000008C",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000BF"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Feliz Ano Novo, {nome}!",
+          "font": "GreatVibes",
+          "color": "#FDE68A",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 132,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.035
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-ano-novo-brinde",
+      "occasions": [
+        "ano_novo"
+      ],
+      "weather": [],
+      "premium": true,
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/ano-novo-brinde.jpg",
+        "colors": [
+          "#BC9E80"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#000000C4",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000FF"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [
+        {
+          "type": "sparkle",
+          "x": 0.12,
+          "y": 0.4,
+          "size": 0.035,
+          "color": "#FFF6D5",
+          "opacity": 0.9
+        },
+        {
+          "type": "sparkle",
+          "x": 0.88,
+          "y": 0.45,
+          "size": 0.03,
+          "color": "#FFF6D5",
+          "opacity": 0.9
+        },
+        {
+          "type": "sparkle",
+          "x": 0.82,
+          "y": 0.62,
+          "size": 0.02,
+          "color": "#FFF6D5",
+          "opacity": 0.9
+        }
+      ],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Feliz Ano Novo, {nome}!",
+          "font": "GreatVibes",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 132,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.035
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-maes-buque",
+      "occasions": [
+        "dia_das_maes"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/maes-buque.jpg",
+        "colors": [
+          "#87705C"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#000000B6",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000F9"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom dia, {nome}!",
+          "font": "GreatVibes",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 132,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.035
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-maes-coracao-rosas",
+      "occasions": [
+        "dia_das_maes"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/maes-coracao-rosas.jpg",
+        "colors": [
+          "#5F4D5A"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#0000008C",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000BF"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom dia, {nome}!",
+          "font": "Pacifico",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 104,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.05
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-pais-lago",
+      "occasions": [
+        "dia_dos_pais"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/pais-lago.jpg",
+        "colors": [
+          "#615544"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#0000008C",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.45
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000BF"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom dia, {nome}!",
+          "font": "PlayfairDisplay",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 96,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.05
+          },
+          "weight": 700
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.21,
+            "w": 0.8,
+            "h": 0.15
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-namorados-coracao",
+      "occasions": [
+        "dia_dos_namorados"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/namorados-coracao.jpg",
+        "colors": [
+          "#2C1511"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#0000008C",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000BF"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [
+        {
+          "type": "sparkle",
+          "x": 0.12,
+          "y": 0.4,
+          "size": 0.035,
+          "color": "#FFF6D5",
+          "opacity": 0.9
+        },
+        {
+          "type": "sparkle",
+          "x": 0.88,
+          "y": 0.45,
+          "size": 0.03,
+          "color": "#FFF6D5",
+          "opacity": 0.9
+        },
+        {
+          "type": "sparkle",
+          "x": 0.82,
+          "y": 0.62,
+          "size": 0.02,
+          "color": "#FFF6D5",
+          "opacity": 0.9
+        }
+      ],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom dia, {nome}!",
+          "font": "GreatVibes",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 132,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.035
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-criancas-blocos",
+      "occasions": [
+        "dia_das_criancas"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/criancas-blocos.jpg",
+        "colors": [
+          "#5D605D"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#000000E7",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000FF"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom dia, {nome}!",
+          "font": "Pacifico",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 104,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.05
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-avos-novelos",
+      "occasions": [
+        "dia_dos_avos"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/avos-novelos.jpg",
+        "colors": [
+          "#B87D39"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#000000C4",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000FF"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom dia, {nome}!",
+          "font": "GreatVibes",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 132,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.035
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-carnaval-confete",
+      "occasions": [
+        "carnaval"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/carnaval-confete.jpg",
+        "colors": [
+          "#E0D0C3"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#000000E0",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000FF"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom dia, {nome}!",
+          "font": "Pacifico",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 104,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.05
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-feriado-bandeira",
+      "occasions": [
+        "feriado"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/feriado-bandeira.jpg",
+        "colors": [
+          "#83A7B7"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#000000C4",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000FF"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom feriado, {nome}!",
+          "font": "Pacifico",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 104,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.05
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-feriado-rede",
+      "occasions": [
+        "feriado"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/feriado-rede.jpg",
+        "colors": [
+          "#7390A0"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#000000A8",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.45
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000E5"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Bom feriado, {nome}!",
+          "font": "GreatVibes",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 132,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.035
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.21,
+            "w": 0.8,
+            "h": 0.15
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "weather",
+          "format": "{cidade} • {temp}°C {icone}",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.905,
+            "w": 0.8,
+            "h": 0.04
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 36
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-noite-estrelas",
+      "occasions": [
+        "boa_noite"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/noite-estrelas.jpg",
+        "colors": [
+          "#102038"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#0000008C",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000BF"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Boa noite, {nome}!",
+          "font": "GreatVibes",
+          "color": "#FDE68A",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 132,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.035
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-noite-velas",
+      "occasions": [
+        "boa_noite"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/noite-velas.jpg",
+        "colors": [
+          "#532D17"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#0000008C",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000BF"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Boa noite, {nome}!",
+          "font": "GreatVibes",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 132,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.035
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-noite-lua-nuvens",
+      "occasions": [
+        "boa_noite"
+      ],
+      "weather": [],
+      "premium": true,
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/noite-lua-nuvens.jpg",
+        "colors": [
+          "#221E1B"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#0000008C",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.28
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000BF"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [
+        {
+          "type": "sparkle",
+          "x": 0.15,
+          "y": 0.3,
+          "size": 0.02,
+          "color": "#FFFFFF",
+          "opacity": 0.9
+        },
+        {
+          "type": "sparkle",
+          "x": 0.85,
+          "y": 0.22,
+          "size": 0.025,
+          "color": "#FFFFFF",
+          "opacity": 0.9
+        },
+        {
+          "type": "sparkle",
+          "x": 0.2,
+          "y": 0.62,
+          "size": 0.015,
+          "color": "#FFFFFF",
+          "opacity": 0.9
+        },
+        {
+          "type": "sparkle",
+          "x": 0.82,
+          "y": 0.66,
+          "size": 0.018,
+          "color": "#FFFFFF",
+          "opacity": 0.9
+        }
+      ],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Boa noite, {nome}!",
+          "font": "GreatVibes",
+          "color": "#FDE68A",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 132,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.035
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.735,
+            "w": 0.8,
+            "h": 0.12
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    },
+    {
+      "id": "foto-noite-cha",
+      "occasions": [
+        "boa_noite"
+      ],
+      "weather": [],
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "background": {
+        "type": "image",
+        "image": "assets/photos/noite-cha.jpg",
+        "colors": [
+          "#825336"
+        ]
+      },
+      "overlay": [
+        {
+          "type": "gradient",
+          "colors": [
+            "#0000008C",
+            "#00000000"
+          ],
+          "stops": [
+            0,
+            0.45
+          ],
+          "angle": 180
+        },
+        {
+          "type": "gradient",
+          "colors": [
+            "#00000000",
+            "#000000BF"
+          ],
+          "stops": [
+            0.62,
+            1
+          ],
+          "angle": 180
+        }
+      ],
+      "decorations": [],
+      "slots": [
+        {
+          "type": "greeting",
+          "text": "Boa noite, {nome}!",
+          "font": "Pacifico",
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.88,
+            "h": 0.16
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 104,
+          "stroke": {
+            "color": "#00000059",
+            "width": 0.05
+          }
+        },
+        {
+          "type": "phrase",
+          "font": "PlayfairDisplay",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.21,
+            "w": 0.8,
+            "h": 0.15
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 58
+        },
+        {
+          "type": "date",
+          "format": "EEEE, d 'de' MMMM",
+          "font": "Montserrat",
+          "weight": 600,
+          "color": "#FFFFFF",
+          "box": {
+            "x": 0.1,
+            "y": 0.865,
+            "w": 0.8,
+            "h": 0.045
+          },
+          "align": "center",
+          "shadow": true,
+          "maxFontSize": 40
+        },
+        {
+          "type": "watermark",
+          "text": "Feito com o app Bom Dia",
+          "font": "Montserrat",
+          "weight": 500,
+          "color": "#FFFFFFB3",
+          "box": {
+            "x": 0.5,
+            "y": 0.955,
+            "w": 0.46,
+            "h": 0.03
+          },
+          "align": "right",
+          "maxFontSize": 24
+        }
+      ]
+    }
+  ]
+}
